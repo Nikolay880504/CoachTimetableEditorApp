@@ -1,0 +1,57 @@
+# Игнорировать временные файлы и папки
+bin/
+obj/
+Debug/
+Release/
+
+# Игнорировать папку сборки
+[Oo]ut/
+
+# Игнорировать файлы проекта Visual Studio
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Игнорировать файлы от ReSharper
+_ReSharper.*
+
+# Игнорировать файлы настройки IDE
+*.suo
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Игнорировать папку application architecture
+application architecture/
+
+# Игнорировать папку secretKey
+secretKey/
+
+# Игнорировать библиотеки Google Drive API и библиотеки для работы с Excel
+Google.Apis.Drive.v3/
+EPPlus/
+ClosedXML/
+
+# Игнорировать папки и файлы для консольного приложения
+ConsoleApp/bin/
+ConsoleApp/obj/
+
+# Игнорировать папки и файлы для приложения Windows Forms (WinForms) или WPF
+WinFormsApp/bin/
+WinFormsApp/obj/
+WPFApp/bin/
+WPFApp/obj/
+
+# Игнорировать папку для логов
+Logs/
+
+# Игнорировать папки и файлы для ASP.NET Core или ASP.NET MVC
+AspNetCoreApp/bin/
+AspNetCoreApp/obj/
+MvcApp/bin/
+MvcApp/obj/
